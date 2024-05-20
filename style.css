@@ -1,0 +1,56 @@
+/* style.css */
+
+/* עיצוב כללי לדף */
+body {
+    font-family: "Comic Sans MS", sans-serif,Arial;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* עיצוב המפה והאזורים המודגשים */
+.map-container {
+    position: relative;
+    display: inline-block;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+}
+
+.highlight-area {
+    position: absolute;
+    display: inline-block;
+}
+
+.highlight-area img {
+    width: 200px; /* רוחב התמונה האחיד */
+    height: 200px; /* גובה התמונה האחיד */
+    object-fit: cover; /* שומר על יחס התמונה ומכסה את השטח */
+}
+
+/* עיצוב נוסף לאזורים המודגשים */
+.area1 { left: 0; top: 0; }
+.area2 { left: 200px; top: 0; }
+.area3 { left: 400px; top: 0; }
+.area4 { left: 600px; top: 0; }
+.area5 { left: 800px; top: 0; }
